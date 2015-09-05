@@ -1,1 +1,18 @@
 // aurora-type :: Settings
+@import "../../aurora-shared/src/settings";
+
+$ae-font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$ae-font-serif: Georgia, "Times New Roman", Times, serif !default;
+$ae-font-mono: Menlo, Monaco, Consolas, "Courier New", monospace !default;
+
+$ae-font-family: $ae-font-sans !default;
+
+$ae-base-font-size: 1rem;
+
+$ae-h1: 3rem;
+$ae-h2: 2.25rem;
+$ae-h3: 1.75rem;
+$ae-h4: 1.5rem;
+$ae-h5: 3rem;
+$ae-h6: 3rem;
+
