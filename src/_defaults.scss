@@ -1,1 +1,40 @@
 // aurora-type :: Defaults
+
+body {
+  background-color: $ae-base-background;
+  color: $ae-base-color;
+  font-family: $ae-font-family;
+  font-size: $ae-base-font-size;
+  line-height: $ae-base-line-height;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: $ae-h-font-family;
+  font-weight: $ae-h-font-weight;
+  line-height: $ae-h-line-height;
+  margin-bottom: $ae-h-margin-bottom;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: $ae-base-margin-bottom;
+  margin-top: 0;
+}
+
+h1 { font-size: $ae-h1; }
+h2 { font-size: $ae-h2; }
+h3 { font-size: $ae-h3; }
+h4 { font-size: $ae-h4; }
+h5 { font-size: $ae-h5; }
+h6 { font-size: $ae-h6; }
+
+hr {
+
+}
+
+

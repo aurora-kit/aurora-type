@@ -1,18 +1,51 @@
 // aurora-type :: Settings
-@import "../../aurora-shared/src/settings";
+@import 'modular-scale';
+$ms-base: .875rem, 1rem, 1.125rem;
+$ms-ratio: 1.5;
+
+@import '../../aurora-shared/src/settings';
 
 $ae-font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $ae-font-serif: Georgia, "Times New Roman", Times, serif !default;
 $ae-font-mono: Menlo, Monaco, Consolas, "Courier New", monospace !default;
 
-$ae-font-family: $ae-font-sans !default;
+$ae-custom-font: true;
+$ae-custom-font-family: 'Aileron', Helvetica, Arial, sans-serif !default;
 
-$ae-base-font-size: 1rem;
+$ae-font-family: if($ae-custom-font, $ae-custom-font-family, $ae-font-sans) !default;
 
-$ae-h1: 3rem;
-$ae-h2: 2.25rem;
-$ae-h3: 1.75rem;
-$ae-h4: 1.5rem;
-$ae-h5: 3rem;
-$ae-h6: 3rem;
+$ae-alfa:     ms(10);   //  ~54px
+$ae-beta:     ms(9);    //  ~47px
+$ae-gamma:    ms(8);    //  ~40px
+$ae-delta:    ms(7);    //  ~36px
+$ae-epsilon:  ms(6);    //  ~31px
+$ae-zeta:     ms(5);    //  ~27px
+$ae-eta:      ms(4);    //  ~24px
+$ae-theta:    ms(3);    //  ~21px
+$ae-iota:     ms(2);    //  ~18px
+$ae-kappa:    ms(1);    //  ~16px
+$ae-lambda:   ms(0);    //  ~14px
+$ae-mi:       ms(-1);   //  ~12px
+$ae-ni:       ms(-2);   //  ~10px
 
+
+// Base Type Settings
+$ae-base-font-size: $ae-iota !default;
+$ae-base-line-height: 1.5 !default;
+$ae-base-margin-bottom: $ae-iota;
+$ae-base-color: #202020 !default;
+$ae-base-background: #fff !default;
+
+
+// Headings Type Settings
+$ae-h1: $ae-beta !default;
+$ae-h2: $ae-delta !default;
+$ae-h3: $ae-epsilon !default;
+$ae-h4: $ae-eta !default;
+$ae-h5: $ae-theta !default;
+$ae-h6: $ae-iota !default;
+
+$ae-h-font-family: inherit !default;
+$ae-h-line-height: 1.2 !default;
+$ae-h-margin-bottom: $ae-ni !default;
+$ae-h-font-weight: 700 !default;

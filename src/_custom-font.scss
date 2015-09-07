@@ -1,0 +1,57 @@
+// aurora-type :: Custom Font
+
+@if $ae-custom-font {
+
+  @font-face {
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 400;
+
+    src: url('fonts/aileron-regular.eot');
+    src: url('fonts/aileron-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-regular.woff2') format('woff2'),
+         url('fonts/aileron-regular.woff') format('woff'),
+         url('fonts/aileron-regular.ttf') format('truetype'),
+         url('fonts/aileron-regular.svg#aileronregular') format('svg');
+  }
+
+  @font-face {
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 500;
+
+    src: url('fonts/aileron-semibold.eot');
+    src: url('fonts/aileron-semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-semibold.woff2') format('woff2'),
+         url('fonts/aileron-semibold.woff') format('woff'),
+         url('fonts/aileron-semibold.ttf') format('truetype'),
+         url('fonts/aileron-semibold.svg#aileronsemibold') format('svg');
+  }
+
+  @font-face {
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 700;
+
+    src: url('fonts/aileron-bold.eot');
+    src: url('fonts/aileron-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-bold.woff2') format('woff2'),
+         url('fonts/aileron-bold.woff') format('woff'),
+         url('fonts/aileron-bold.ttf') format('truetype'),
+         url('fonts/aileron-bold.svg#aileronbold') format('svg');
+  }
+
+  @font-face {
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 900;
+
+    src: url('fonts/aileron-black.eot');
+    src: url('fonts/aileron-black.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aileron-black.woff2') format('woff2'),
+         url('fonts/aileron-black.woff') format('woff'),
+         url('fonts/aileron-black.ttf') format('truetype'),
+         url('fonts/aileron-black.svg#aileronblack') format('svg');
+  }
+
+}
