@@ -9,7 +9,7 @@ $ae-font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $ae-font-serif: Georgia, "Times New Roman", Times, serif !default;
 $ae-font-mono: Menlo, Monaco, Consolas, "Courier New", monospace !default;
 
-$ae-custom-font: true;
+$ae-custom-font: false;
 $ae-custom-font-family: 'Aileron', Helvetica, Arial, sans-serif !default;
 
 $ae-font-family: if($ae-custom-font, $ae-custom-font-family, $ae-font-sans) !default;
@@ -28,16 +28,17 @@ $ae-lambda:   ms(0);    //  ~14px
 $ae-mi:       ms(-1);   //  ~12px
 $ae-ni:       ms(-2);   //  ~10px
 
+$ae-space: $ae-mi !default;
 
-// Base Type Settings
+/// Base Type Settings
 $ae-base-font-size: $ae-iota !default;
 $ae-base-line-height: 1.5 !default;
 $ae-base-margin-bottom: $ae-iota;
-$ae-base-color: #202020 !default;
+$ae-base-color: $ae-dark-grey !default;
 $ae-base-background: #fff !default;
 
 
-// Headings Type Settings
+/// Headings Type Settings
 $ae-h1: $ae-beta !default;
 $ae-h2: $ae-delta !default;
 $ae-h3: $ae-epsilon !default;
@@ -47,5 +48,32 @@ $ae-h6: $ae-iota !default;
 
 $ae-h-font-family: inherit !default;
 $ae-h-line-height: 1.2 !default;
-$ae-h-margin-bottom: $ae-ni !default;
-$ae-h-font-weight: 700 !default;
+$ae-h-margin-bottom: $ae-space !default;
+$ae-h-font-weight: 400 !default;
+
+///
+$ae-link-color: $ae-blue !default;
+$ae-em-color: $ae-red !default;
+$ae-mark-color: $ae-yellow !default;
+
+/// 
+$ae-hr-border-width: 1px !default;
+$ae-hr-border-color: $ae-light-grey !default;
+$ae-hr-space: $ae-space !default;
+
+///
+$blockquote-padding: $ae-space !default;
+$blockquote-border-width: 5px !default;
+$blockquote-border-color: $ae-light-grey !default;
+
+///
+$ae-pre-background: $ae-ultra-light-grey;
+$ae-pre-color: $ae-light-grey;
+$ae-code-color: $ae-fucsia;
+
+///
+$ae-list-line-color: $ae-light-grey;
+$ae-list-background: $ae-ultra-light-grey;
+
+
+

@@ -55,9 +55,14 @@ gulp.task('scss', function() {
 
 });
 
+gulp.task('copy-fonts', function(){
+    return gulp.src('src/fonts/**/*.*')
+        .pipe(gulp.dest('dist/fonts/'));
+});
+
 gulp.task('watch', function() {
   gulp.watch('src/**/*.scss', ['scss']);
   livereload.listen();
 });
 
-gulp.task('default', ['scss']);
+gulp.task('default', ['copy-fonts', 'scss']);
