@@ -1,5 +1,5 @@
 // aurora-type :: Helpers
 
-.ae-u-bold { font-weight: 500; }
-.ae-u-bolder { font-weight: 700; }
-.ae-u-boldest { font-weight: 900; }
+.#{$ae}-u-bold { font-weight: 500; }
+.#{$ae}-u-bolder { font-weight: 700; }
+.#{$ae}-u-boldest { font-weight: 900; }

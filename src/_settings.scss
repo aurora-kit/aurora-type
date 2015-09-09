@@ -1,8 +1,4 @@
 // aurora-type :: Settings
-@import 'modular-scale';
-$ms-base: .875rem, 1rem, 1.125rem;
-$ms-ratio: 1.5;
-
 @import '../../aurora-shared/src/settings';
 
 $ae-font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -13,22 +9,6 @@ $ae-custom-font: false;
 $ae-custom-font-family: 'Aileron', Helvetica, Arial, sans-serif !default;
 
 $ae-font-family: if($ae-custom-font, $ae-custom-font-family, $ae-font-sans) !default;
-
-$ae-alfa:     ms(10);   //  ~54px
-$ae-beta:     ms(9);    //  ~47px
-$ae-gamma:    ms(8);    //  ~40px
-$ae-delta:    ms(7);    //  ~36px
-$ae-epsilon:  ms(6);    //  ~31px
-$ae-zeta:     ms(5);    //  ~27px
-$ae-eta:      ms(4);    //  ~24px
-$ae-theta:    ms(3);    //  ~21px
-$ae-iota:     ms(2);    //  ~18px
-$ae-kappa:    ms(1);    //  ~16px
-$ae-lambda:   ms(0);    //  ~14px
-$ae-mi:       ms(-1);   //  ~12px
-$ae-ni:       ms(-2);   //  ~10px
-
-$ae-space: $ae-mi !default;
 
 /// Base Type Settings
 $ae-base-font-size: $ae-iota !default;
