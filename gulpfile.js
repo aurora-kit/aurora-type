@@ -60,7 +60,7 @@ gulp.task('copy-fonts', function(){
 
 gulp.task('watch', function() {
   gulp.watch('src/**/*.scss', ['scss']);
-  livereload.listen();
+  // livereload.listen();
 });
 
 gulp.task('default', ['copy-fonts', 'scss']);
